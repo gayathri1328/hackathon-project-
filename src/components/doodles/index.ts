@@ -1,0 +1,9 @@
+export { BrainDoodle } from './BrainDoodle';
+export { BooksDoodle } from './BooksDoodle';
+export { LightBulbDoodle } from './LightBulbDoodle';
+export { KnowledgeNodesDoodle } from './KnowledgeNodesDoodle';
+export { CodeBracketsDoodle } from './CodeBracketsDoodle';
+export { GraduationCapDoodle } from './GraduationCapDoodle';
+export { StarsDoodle } from './StarsDoodle';
+export { StickyNoteDoodle } from './StickyNoteDoodle';
+export { ArrowDoodle } from './ArrowDoodle';

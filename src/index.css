@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FFF8F3;
+    color: #252124;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+}
+
+/* Custom editorial doodle shadow utilities */
+.shadow-doodle {
+  box-shadow: 4px 4px 0px 0px rgba(72, 19, 41, 0.9);
+}
+
+.shadow-doodle-sm {
+  box-shadow: 2px 2px 0px 0px rgba(72, 19, 41, 0.85);
+}
+
+.shadow-doodle-lg {
+  box-shadow: 6px 6px 0px 0px rgba(72, 19, 41, 0.95);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
